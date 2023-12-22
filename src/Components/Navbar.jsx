@@ -61,6 +61,26 @@ const Navbar = () => {
       >
         Dashboard
       </NavLink>
+      <NavLink
+        to="/features"
+        className={({ isActive }) =>
+          isActive
+            ? "dark:text-white text-black px-3 py-1 border-y-4 border-purple-700 dark:border-purple-300 rounded font-medium"
+            : "flex mx-2 py-1 font-semibold hover:text-purple-700 dark:hover:text-purple-400"
+        }
+      >
+        Features
+      </NavLink>
+      <NavLink
+        to="/aboutUs"
+        className={({ isActive }) =>
+          isActive
+            ? "dark:text-white text-black px-3 py-1 border-y-4 border-purple-700 dark:border-purple-300 rounded font-medium"
+            : "flex mx-2 py-1 font-semibold hover:text-purple-700 dark:hover:text-purple-400"
+        }
+      >
+        About Us
+      </NavLink>
     </>
   );
 
@@ -96,6 +116,38 @@ const Navbar = () => {
           }
         >
           Dashboard
+        </NavLink>
+      </span>
+      <span
+        className={
+          "block my-1 w-full px-2 rounded-md bg-purple-100 dark:bg-purple-300 text-white py-1"
+        }
+      >
+        <NavLink
+          to="/features"
+          className={({ isActive }) =>
+            isActive
+              ? "px-2 text-purple-800  font-bold underline"
+              : "px-2 font-medium rounded-md text-purple-700 "
+          }
+        >
+          Features
+        </NavLink>
+      </span>
+      <span
+        className={
+          "block my-1 w-full px-2 rounded-md bg-purple-100 dark:bg-purple-300 text-white py-1"
+        }
+      >
+        <NavLink
+          to="/aboutUs"
+          className={({ isActive }) =>
+            isActive
+              ? "px-2 text-purple-800  font-bold underline"
+              : "px-2 font-medium rounded-md text-purple-700 "
+          }
+        >
+          About Us
         </NavLink>
       </span>
     </>

@@ -19,7 +19,7 @@ const Banner = () => {
             breathe easy. Start your Taskbook journey today.
           </p>
           <Link to="/dashboard">
-            <button className="mt-4 px-4 py-2 rounded border-2 border-purple-400 hover:border-purple-600 hover:bg-purple-700  duration-150 ease-in-out font-semibold text-white">
+            <button className="mt-6 px-4 py-2 rounded border border-purple-400 hover:border-purple-600 hover:bg-purple-700  duration-150 ease-in-out font-semibold text-white">
               Lets Explore
             </button>
           </Link>

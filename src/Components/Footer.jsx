@@ -16,6 +16,12 @@ const Footer = () => {
       >
         Dashboard
       </Link>
+      <Link
+        to="/features"
+        className="hover:underline text-xs lg:text-base text-gray-400"
+      >
+        Features
+      </Link>
     </>
   );
 
@@ -33,7 +39,12 @@ const Footer = () => {
             <header className="footer-title text-base lg:text-xl">
               Company
             </header>
-            <a className="link link-hover text-xs lg:text-base">About us</a>
+            <Link
+              to="/aboutUs"
+              className="hover:underline text-xs lg:text-base text-gray-400"
+            >
+              About Us
+            </Link>
             <a className="link link-hover text-xs lg:text-base">Contact Us</a>
             <a className="link link-hover text-xs lg:text-base">Donate</a>
           </nav>
