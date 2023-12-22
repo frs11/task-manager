@@ -6,6 +6,7 @@ import Registration from "../Pages/Registration";
 import PrivateRoutes from "./PrivateRoutes";
 import Dashboard from "../Pages/Dashboard/Dashboard";
 import RestrictedRoutes from "./RestrictedRoutes";
+import Home from "../Pages/Home";
 
 // const url = "https://restaurant-manager-server.vercel.app";
 
@@ -15,6 +16,10 @@ const customRoutes = createBrowserRouter([
     element: <Layout></Layout>,
     errorElement: <ErrorPage></ErrorPage>,
     children: [
+      {
+        path: "/",
+        element: <Home></Home>,
+      },
       {
         path: "/dashboard",
         element: (

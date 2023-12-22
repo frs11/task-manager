@@ -102,7 +102,7 @@ const Navbar = () => {
   );
 
   return (
-    <div className="navbar sticky z-50 top-0 bg-opacity-90 bg-white dark:opacity-80 shadow-lg w-full dark:bg-slate-900 dark:text-white lg:px-12 mx-auto">
+    <div className="navbar sticky z-50 top-0 bg-opacity-90 bg-white dark:opacity-80 shadow-lg w-full dark:bg-slate-900 dark:text-white lg:px-12 mx-auto md:py-3">
       <div className="navbar-start">
         <div className="dropdown" onClick={() => setOpen(!open)}>
           <label tabIndex={0} className="btn btn-ghost lg:hidden">
@@ -135,7 +135,7 @@ const Navbar = () => {
           <span className="flex items-center">
             <img
               src="https://i.ibb.co/QdqtDs7/management.png"
-              className="w-10 md:w-12 lg:w-16 mr-1"
+              className="w-10 md:w-10 mr-1"
             />
             <span className="font-medium font-logoFont dark:text-white text-sm md:text-xl lg:text-2xl">
               Task
