@@ -4,7 +4,7 @@ import { FaRegArrowAltCircleRight } from "react-icons/fa";
 const Audiance = () => {
   return (
     <div className="my-5 md:my-10">
-      <h2 className="text-transparent text-center mt-26 mb-8 text-purple-900 dark:text-purple-200 text-3xl font-bold">
+      <h2 className="text-transparent text-center mt-26 mb-8 text-black dark:text-white text-2xl md:text-3xl font-bold">
         Our Audiances
       </h2>
       <Marquee>
