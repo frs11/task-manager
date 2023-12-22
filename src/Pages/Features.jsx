@@ -1,6 +1,11 @@
+import { Helmet } from "react-helmet-async";
+
 const Features = () => {
   return (
     <div className="container w-11/12 md:w-10/12 mx-auto mt-8 py-4 px-4">
+      <Helmet>
+        <title>Taskbook | Features</title>
+      </Helmet>
       <h2 className="text-xl md:text-3xl text-center font-semibold mb-4 md:mb-12">
         Key Features
       </h2>

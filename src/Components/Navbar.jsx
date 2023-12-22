@@ -88,15 +88,15 @@ const Navbar = () => {
     <>
       <span
         className={
-          "block my-1 w-full px-2 rounded-md bg-purple-100 dark:bg-purple-300 text-white py-1"
+          "block my-1 w-full px-2 rounded-md bg-slate-300 dark:bg-slate-600 text-white py-1"
         }
       >
         <NavLink
           to="/"
           className={({ isActive }) =>
             isActive
-              ? "px-2 text-purple-800  font-bold underline"
-              : "px-2 font-medium rounded-md text-purple-700 "
+              ? "px-2 text-purple-800 dark:text-purple-300 font-bold underline"
+              : "px-2 font-medium rounded-md text-purple-700 dark:text-purple-100"
           }
         >
           Home
@@ -104,15 +104,15 @@ const Navbar = () => {
       </span>
       <span
         className={
-          "block my-1 w-full px-2 rounded-md bg-purple-100 dark:bg-purple-300 text-white py-1"
+          "block my-1 w-full px-2 rounded-md bg-slate-300 dark:bg-slate-600 text-white py-1"
         }
       >
         <NavLink
           to="/dashboard"
           className={({ isActive }) =>
             isActive
-              ? "px-2 text-purple-800  font-bold underline"
-              : "px-2 font-medium rounded-md text-purple-700 "
+              ? "px-2 text-purple-800 dark:text-purple-300 font-bold underline"
+              : "px-2 font-medium rounded-md text-purple-700 dark:text-purple-100"
           }
         >
           Dashboard
@@ -120,15 +120,15 @@ const Navbar = () => {
       </span>
       <span
         className={
-          "block my-1 w-full px-2 rounded-md bg-purple-100 dark:bg-purple-300 text-white py-1"
+          "block my-1 w-full px-2 rounded-md bg-slate-300 dark:bg-slate-600 text-white py-1"
         }
       >
         <NavLink
           to="/features"
           className={({ isActive }) =>
             isActive
-              ? "px-2 text-purple-800  font-bold underline"
-              : "px-2 font-medium rounded-md text-purple-700 "
+              ? "px-2 text-purple-800 dark:text-purple-300 font-bold underline"
+              : "px-2 font-medium rounded-md text-purple-700 dark:text-purple-100"
           }
         >
           Features
@@ -136,15 +136,15 @@ const Navbar = () => {
       </span>
       <span
         className={
-          "block my-1 w-full px-2 rounded-md bg-purple-100 dark:bg-purple-300 text-white py-1"
+          "block my-1 w-full px-2 rounded-md bg-slate-300 dark:bg-slate-600 text-white py-1"
         }
       >
         <NavLink
           to="/aboutUs"
           className={({ isActive }) =>
             isActive
-              ? "px-2 text-purple-800  font-bold underline"
-              : "px-2 font-medium rounded-md text-purple-700 "
+              ? "px-2 text-purple-800 dark:text-purple-300 font-bold underline"
+              : "px-2 font-medium rounded-md text-purple-700 dark:text-purple-100"
           }
         >
           About Us
@@ -177,7 +177,7 @@ const Navbar = () => {
             tabIndex={0}
             className={` dropdown-content mt-3 p-2 z-[1] ${
               open ? "" : "hidden"
-            } shadow bg-base-100 rounded-lg w-52`}
+            } shadow bg-base-100 rounded-lg dark:bg-slate-700 w-52`}
           >
             {dropdownLinks}
           </ul>

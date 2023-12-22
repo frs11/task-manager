@@ -10,6 +10,8 @@ import Home from "../Pages/Home";
 import Profile from "../Pages/Dashboard/Profile";
 import AboutUs from "../Pages/AboutUs";
 import Features from "../Pages/Features";
+import ToDoList from "../Pages/Dashboard/ToDoList";
+import AddToDoList from "../Pages/Dashboard/AddToDoList";
 
 // const url = "https://restaurant-manager-server.vercel.app";
 
@@ -55,10 +57,14 @@ const customRoutes = createBrowserRouter([
           </PrivateRoutes>
         ),
         children: [
-          // {
-          //   path: "/dashboard",
-          //   element: <Profile></Profile>,
-          // },
+          {
+            path: "taskList",
+            element: <ToDoList></ToDoList>,
+          },
+          {
+            path: "addtodo",
+            element: <AddToDoList></AddToDoList>,
+          },
           {
             path: "profile",
             element: <Profile></Profile>,

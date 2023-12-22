@@ -27,7 +27,7 @@ const Footer = () => {
 
   return (
     <div>
-      <footer className="bg-gray-900">
+      <footer className="bg-gray-950">
         <div className="footer p-4 lg:p-10 max-w-screen-xl mx-auto text-gray-400 flex justify-around">
           <nav>
             <header className="footer-title text-base lg:text-xl">
@@ -102,7 +102,7 @@ const Footer = () => {
           </nav>
         </div>
       </footer>
-      <div className="footer footer-center pb-5 bg-gray-900 text-xs lg:text-base text-gray-400">
+      <div className="footer footer-center pb-5 bg-gray-950 text-xs lg:text-base text-gray-400">
         <aside>
           <p>
             Copyright © 2023 - All right reserved by{" "}
